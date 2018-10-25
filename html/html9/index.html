@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- Syntax -->
+
+  <!-- <div></div> -->
+  <div></div>
+  <section></section>
+  <article></article>
+
+  <!-- class: div.myClass -->
+  <div class="myClass"></div>
+  <!-- multiple classes: div.myClass1.myClass2.myClass3 -->
+  <div class="myClass1 myClass2 myClass3"></div>
+  <!-- id: div#myId -->
+  <div id="myId"></div>
+  <!-- class and id: div.myClass#myId -->
+  <div class="myClass" id="myId"></div>
+  <!-- Div shortcut: .myClass#myId -->
+  <div class="myClass"></div>
+  <div id="myId"></div>
+  <em><span class="myClass"></span></em>
+  <!-- Child > : ul>li -->
+  <ul>
+    <li></li>
+  </ul>
+  <!-- Child > : div.myClass>ul.listClass>li.itemClass -->
+  <div class="myClass">
+    <ul class="listClass">
+      <li class="listItem"></li>
+    </ul>
+  </div>
+  <!-- Sibling: div+header+p+bq+footer -->
+  <div></div>
+  <header></header>
+  <p></p>
+  <blockquote></blockquote>
+  <footer></footer>
+  <!-- Child & Sibling: div>header+p+bq+footer -->
+  <div>
+    <header></header>
+    <p></p>
+    <blockquote></blockquote>
+    <footer></footer>
+  </div>
+  <!-- Grouping: div>(header>ul>li*3>a)+footer>p -->
+  <div>
+    <header>
+      <ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+      </ul>
+    </header>
+    <p></p>
+    <footer>
+      <p></p>
+    </footer>
+  </div>
+  <!-- Multiplication: ul>li*5 -->
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  <!-- Item numbering: ul>li.items*5 -->
+  <ul>
+    <li class="items"></li>
+    <li class="items"></li>
+    <li class="items"></li>
+    <li class="items"></li>
+    <li class="items"></li>
+  </ul>
+  <!-- Item numbering, attributes & text: h$.myClass[title=Heading]{Header $}*3>p>lorem -->
+  <h1 class="myClass" title="Heading">Header 1</h1>
+  <h2 class="myClass" title="Heading">Header 2</h2>
+  <h3 class="myClass" title="Heading">Header 3</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quae quod deserunt
+    reiciendis fugiat quidem recusandae tenetur quas sapiente veritatis! Quia vero, eaque excepturi
+    modi quos sequi in similique facere?</p>
+  <!-- Item numbering and text: ul>li.items*5>{item $} -->
+  <ul>
+    <li class="items">item 1</li>
+    <li class="items">item 2</li>
+    <li class="items">item 3</li>
+    <li class="items">item 4</li>
+    <li class="items">item 5</li>
+  </ul>
+  <!-- Text: p>{Click }+a{here}+{ to continue} -->
+  <p>Click <a href="">here</a> to continue</p>
+  <!-- Form (get): form:get -->
+  <form action="" method="get"></form>
+  <!-- Form (post): form:post -->
+  <form action="" method="post"></form>
+  <!-- Input: input also inp -->
+  <input type="text">
+  <input type="text" name="" id="">
+  <!-- Input email input:email -->
+  <input type="email" name="" id="">
+  <!-- Button: btn -->
+  <button></button>
+  <button></button>
+  <!-- Buttons: btn:s{Submit}+btn:r{Reset} -->
+  <button type="submit">Submit</button> <button type="reset">Reset</button>
+  <!-- +: select+ -->
+  <map name="">
+    <area shape="" coords="" href="" alt="">
+  </map>
+  <select name="" id="">
+    <option value=""></option>
+    <option value=""></option>
+    <option value=""></option>
+    <option value=""></option>
+    <option value=""></option>
+    <option value=""></option>
+    <option value=""></option>
+  </select>
+  <!-- Lorem: lorem -->
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe at nemo reiciendis, magnam hic
+  adipisci!
+</body>
+
+</html>
